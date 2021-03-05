@@ -1,8 +1,8 @@
 FROM tiangolo/uwsgi-nginx:python3.7
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="SebastianRamirez <tiangolo@gmail.com>"
 
-RUN pip install flask requests
+RUN pip install flask requests 
 
 COPY ./app /app
 WORKDIR /app
